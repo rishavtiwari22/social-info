@@ -1,0 +1,70 @@
+*{
+    color: white
+}
+
+
+.body{
+    background-color: #202020;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.cart{
+    height: 78vh;
+    max-width: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #303030;
+    border-radius: 10px;
+}
+
+.my-image{
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    height: 90px;
+    width:90px;
+}
+
+.name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.place{
+    padding-bottom: 20px;
+    color: #bee69c;
+}
+
+.buttons{
+    height:40%;
+    max-height: 70%;
+    max-width: 90%;
+    padding: 30px 0px 0px 50px;
+    background-color:#303030;
+    margin-left: 5px;
+    
+}
+
+.btn{
+    height: 15%;
+    width: 80%;
+    gap:50px;
+    background-color: #404040;
+    color: white !important;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
