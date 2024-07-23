@@ -68,3 +68,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
 }
+
+.btn:hover{
+    background-color: #606060;
+}
